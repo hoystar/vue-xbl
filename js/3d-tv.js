@@ -4,13 +4,18 @@ var SONGLIST = ['http://res.webftp.bbs.hnol.net/zhangyu/music/cd114/01.mp3',
     'http://res.webftp.bbs.hnol.net/zhangyu/music/cd114/07.mp3',
     'http://res.webftp.bbs.hnol.net/zhangyu/music/cd108/07.mp3',
     'http://res.webftp.bbs.hnol.net/zhangyu/music/cd104/03.mp3',
+    'http://music.163.com/song/media/outer/url?id=38673096.mp3',
     'http://res.webftp.bbs.hnol.net/zhangyu/music/cd110/11.mp3',
+    'http://music.163.com/song/media/outer/url?id=4467033.mp3',
     'http://res.webftp.bbs.hnol.net/zhangyu/music/cd110/11.mp3',
     'http://res.webftp.bbs.hnol.net/zhangyu/music/cd100/10.mp3',
     'http://res.webftp.bbs.hnol.net/zhangyu/music/cd111/09.mp3',
     'http://music.163.com/song/media/outer/url?id=261711.mp3',
+    'http://music.163.com/song/media/outer/url?id=41631168.mp3',
+    'http://music.163.com/song/media/outer/url?id=4467033.mp3',
     'http://res.webftp.bbs.hnol.net/zhangyu/music/cd113/01.mp3',
     'http://music.163.com/song/media/outer/url?id=262227.mp3',
+    'http://music.163.com/song/media/outer/url?id=4467033.mp3',
     'http://res.webftp.bbs.hnol.net/zhangyu/music/cd113/05.mp3',
     'http://music.163.com/song/media/outer/url?id=262232.mp3',
     'http://other.web.re01.sycdn.kuwo.cn/resource/n1/67/96/538884926.mp3',
@@ -18,9 +23,15 @@ var SONGLIST = ['http://res.webftp.bbs.hnol.net/zhangyu/music/cd114/01.mp3',
     'http://res.webftp.bbs.hnol.net/zhangyu/music/cd104/10.mp3',
     'http://res.webftp.bbs.hnol.net/zhangyu/music/cd100/02.mp3',
     'http://mp3hot.9ku.com/hot/2013/09-19/561084.mp3',
+    'http://music.163.com/song/media/outer/url?id=26300444.mp3',
     'http://music.163.com/song/media/outer/url?id=261562.mp3',
     'http://res.webftp.bbs.hnol.net/zhangyu/music/cd113/08.mp3',
     'http://65.ierge.cn/8/126/252124.mp3',
+    'http://music.163.com/song/media/outer/url?id=34516570.mp3',
+    'http://music.163.com/song/media/outer/url?id=34516572.mp3',
+    'http://music.163.com/song/media/outer/url?id=36664009.mp3',
+    'http://music.163.com/song/media/outer/url?id=38679075.mp3',
+    'http://music.163.com/song/media/outer/url?id=453927862.mp3',
     'http://res.webftp.bbs.hnol.net/zhangyu/music/cd110/07.mp3',
     'http://res.webftp.bbs.hnol.net/zhangyu/music/cd102/06.mp3',
     'http://res.webftp.bbs.hnol.net/zhangyu/music/cd63/08.mp3',
@@ -32,6 +43,12 @@ var SONGLIST = ['http://res.webftp.bbs.hnol.net/zhangyu/music/cd114/01.mp3',
     'http://music.163.com/song/media/outer/url?id=261904.mp3',
     'http://res.webftp.bbs.hnol.net/zhangyu/music/cd111/10.mp3',
     'http://res.webftp.bbs.hnol.net/zhangyu/music/cd113/03.mp3',
+    'http://music.163.com/song/media/outer/url?id=453927862.mp3',
+    'http://music.163.com/song/media/outer/url?id=431363022.mp3',
+    'http://music.163.com/song/media/outer/url?id=35920105.mp3',
+    'http://music.163.com/song/media/outer/url?id=38019351.mp3',
+    'http://music.163.com/song/media/outer/url?id=399366438.mp3',
+    'http://music.163.com/song/media/outer/url?id=33223624.mp3',
     'http://music.163.com/song/media/outer/url?id=262295.mp3',
     'http://res.webftp.bbs.hnol.net/zhangyu/music/cd100/04.mp3',
     'http://music.163.com/song/media/outer/url?id=262646.mp3',
@@ -39,24 +56,43 @@ var SONGLIST = ['http://res.webftp.bbs.hnol.net/zhangyu/music/cd114/01.mp3',
     'http://other.web.re01.sycdn.kuwo.cn/resource/n3/16/89/3193470389.mp3',
     'http://res.webftp.bbs.hnol.net/zhangyu/music/cd114/11.mp3',
     'http://music.163.com/song/media/outer/url?id=262187.mp3',
+    'http://music.163.com/song/media/outer/url?id=4467033.mp3',
     'http://res.webftp.bbs.hnol.net/zhangyu/music/cd104/01.mp3',
+    'http://music.163.com/song/media/outer/url?id=4467033.mp3',
     'http://res.webftp.bbs.hnol.net/zhangyu/music/cd113/06.mp3',
     'http://res.webftp.bbs.hnol.net/zhangyu/music/cd105/12.mp3',
     'http://other.web.re01.sycdn.kuwo.cn/resource/n2/31/79/2454387075.mp3',
     'http://res.webftp.bbs.hnol.net/zhangyu/music/cd100/08.mp3',
+    'http://music.163.com/song/media/outer/url?id=4467033.mp3',
     'http://music.163.com/song/media/outer/url?id=261714.mp3',
+    'http://music.163.com/song/media/outer/url?id=4467033.mp3',
     'http://res.webftp.bbs.hnol.net/zhangyu/music/cd102/08.mp3',
     'http://res.webftp.bbs.hnol.net/zhangyu/music/cd114/08.mp3',
     'http://music.163.com/song/media/outer/url?id=261935.mp3',
     'http://mp3.9ku.com/mp3/297/296383.mp3',
+    'http://music.163.com/song/media/outer/url?id=27875293.mp3',
+    'http://music.163.com/song/media/outer/url?id=38392591.mp3',
+    'http://music.163.com/song/media/outer/url?id=1803573.mp3',
+    'http://music.163.com/song/media/outer/url?id=35920103.mp3',
+    'http://music.163.com/song/media/outer/url?id=28957363.mp3',
+    'http://music.163.com/song/media/outer/url?id=35920102.mp3',
+    'http://music.163.com/song/media/outer/url?id=262679.mp3',
     'http://res.webftp.bbs.hnol.net/zhangyu/music/cd113/09.mp3',
     'http://res.webftp.bbs.hnol.net/zhangyu/music/cd113/12.mp3',
+    'http://music.163.com/song/media/outer/url?id=27875293.mp3',
+    'http://music.163.com/song/media/outer/url?id=28626095.mp3',
+    'http://music.163.com/song/media/outer/url?id=4467033.mp3',
+    'http://music.163.com/song/media/outer/url?id=36664008.mp3',
+    'http://music.163.com/song/media/outer/url?id=30474787.mp3',
+    'http://music.163.com/song/media/outer/url?id=442315454.mp3',  
     'http://res.webftp.bbs.hnol.net/zhangyu/music/cd105/02.mp3',
     'http://webftp.bbs.hnol.net/linm/Music/2015/08/lzlzsly/08.mp3',
     'http://music.163.com/song/media/outer/url?id=261881.mp3',
     'http://res.webftp.bbs.hnol.net/zhangyu/music/cd114/03.mp3',
     'http://webftp.bbs.hnol.net/linm/Music/2014/09/zhVSlzl/11.mp3',
     'http://music.163.com/song/media/outer/url?id=262211.mp3',
+    'http://music.163.com/song/media/outer/url?id=4467033.mp3',
+    'http://music.163.com/song/media/outer/url?id=4467033.mp3',
     'http://res.webftp.bbs.hnol.net/zhangyu/music/cd113/07.mp3',
     'http://res.webftp.bbs.hnol.net/zhangyu/music/cd113/11.mp3',
     'http://music.163.com/song/media/outer/url?id=261708.mp3',
@@ -76,6 +112,11 @@ var SONGLIST = ['http://res.webftp.bbs.hnol.net/zhangyu/music/cd114/01.mp3',
     'http://res.webftp.bbs.hnol.net/zhangyu/music/cd104/11.mp3',
     'http://music.163.com/song/media/outer/url?id=262298.mp3',
     'http://65.ierge.cn/8/126/252123.mp3',
+     'http://music.163.com/song/media/outer/url?id=26114928.mp3',
+      'http://music.163.com/song/media/outer/url?id=28976305.mp3',
+       'http://music.163.com/song/media/outer/url?id=26262255.mp3',
+        'http://music.163.com/song/media/outer/url?id=1803584.mp3',
+         'http://music.163.com/song/media/outer/url?id=33394067.mp3',
     'http://res.webftp.bbs.hnol.net/zhangyu/music/cd102/04.mp3',
     'http://music.163.com/song/media/outer/url?id=261637.mp3',
     'http://res.webftp.bbs.hnol.net/zhangyu/music/cd104/02.mp3',
@@ -86,6 +127,13 @@ var SONGLIST = ['http://res.webftp.bbs.hnol.net/zhangyu/music/cd114/01.mp3',
     'http://res.webftp.bbs.hnol.net/zhangyu/music/cd101/03.mp3',
     'http://other.web.re01.sycdn.kuwo.cn/resource/n1/35/29/2292082980.mp3',
     'http://65.ierge.cn/8/126/252121.mp3',
+    'http://music.163.com/song/media/outer/url?id=4459960.mp3',
+    'http://music.163.com/song/media/outer/url?id=4459963.mp3',
+    'http://music.163.com/song/media/outer/url?id=28168056.mp3',
+    'http://music.163.com/song/media/outer/url?id=28996008.mp3',
+    'http://music.163.com/song/media/outer/url?id=28996013.mp3',
+    'http://music.163.com/song/media/outer/url?id=28957363.mp3',
+    'http://music.163.com/song/media/outer/url?id=35920102.mp3',
     'http://music.163.com/song/media/outer/url?id=262679.mp3',
     'http://music.163.com/song/media/outer/url?id=262303.mp3',
     'http://webftp.bbs.hnol.net/linm/Music/2014/09/zhVSlzl/09.mp3',
@@ -100,6 +148,13 @@ var SONGLIST = ['http://res.webftp.bbs.hnol.net/zhangyu/music/cd114/01.mp3',
     'http://res.webftp.bbs.hnol.net/zhangyu/music/cd114/06.mp3',
     'http://music.163.com/song/media/outer/url?id=261686.mp3',
     'http://65.ierge.cn/8/126/252127.mp3',
+    'http://music.163.com/song/media/outer/url?id=4459963.mp3',
+    'http://music.163.com/song/media/outer/url?id=28168056.mp3',
+    'http://music.163.com/song/media/outer/url?id=28996008.mp3',
+    'http://music.163.com/song/media/outer/url?id=28996013.mp3',
+    'http://music.163.com/song/media/outer/url?id=28957363.mp3',
+    'http://music.163.com/song/media/outer/url?id=35920102.mp3',
+    'http://music.163.com/song/media/outer/url?id=262679.mp3',
     'http://res.webftp.bbs.hnol.net/zhangyu/music/cd104/07.mp3',
     'http://music.163.com/song/media/outer/url?id=262216.mp3',
     'http://res.webftp.bbs.hnol.net/zhangyu/music/cd113/10.mp3',
@@ -122,6 +177,12 @@ var SONGLIST = ['http://res.webftp.bbs.hnol.net/zhangyu/music/cd114/01.mp3',
     'http://other.web.rc01.sycdn.kuwo.cn/resource/n1/29/31/2030262590.mp3',
     'http://music.163.com/song/media/outer/url?id=262237.mp3',
     'http://webftp.bbs.hnol.net/xingchen/yy/liandexinshi.mp3',
+    'http://music.163.com/song/media/outer/url?id=27875293.mp3',
+    'http://music.163.com/song/media/outer/url?id=38392591.mp3',
+    'http://music.163.com/song/media/outer/url?id=1803573.mp3',
+    'http://music.163.com/song/media/outer/url?id=35920103.mp3',
+    'http://music.163.com/song/media/outer/url?id=28957363.mp3',
+    'http://music.163.com/song/media/outer/url?id=35920102.mp3',
     'http://res.webftp.bbs.hnol.net/zhangyu/music/cd63/03.mp3',
     'http://1.wp.zp68.com/sub/filestores/2016/12/19/e5a189173704a1cbb37056aed42ca572.mp3',
     'http://music.163.com/song/media/outer/url?id=262292.mp3',
@@ -149,6 +210,7 @@ Library.ease = function() {
         this.position += (target - this.position) * speed;
     }
 }
+
 
 var tv = {
     /* ==== variables ==== */
@@ -178,31 +240,7 @@ var tv = {
         this.screen.obj.onselectstart = function() { return false; }
         this.screen.obj.ondrag = function() { return false; }
         /* ==== create images grid ==== */
-        // var audio = document.createElement("audio");
-        // //for(var i=0;i<=SONGLIST.length;i++){
-        // 	audio.src = SONGLIST[70];
-        // 	console.log("SONGLIST[37]-->",SONGLIST[62]);
-        // 	//audio.play()
-        // 	 let a = audio.play();
-        // 	 console.log("a-->",a);
-        // 	 //return Promise.resolve(a);
 
-        // 	 return Promise.resolve(a);
-        // //a.resolve;
-        // a.then(function(val,aa) {
-        // 	 console.log("val--->",val);
-        // 	 console.log("aa--->",aa);
-        // 	 console.log("i-11-->",i);
-        // },function(bb,vvv) {
-        // 	 console.log("vvv--->",vvv);
-        // 	 console.log("bbb--->",bb);
-        // 	 console.log("i-22-->",i);
-        // });
-
-        //}
-        // Promise.all(aa).then(function(values) {
-        //        console.log("values-->",values);
-        //    });
         var ni = 0;
         var n = (tv.grid.size / 2) - .5;
         var src = "http://music.163.com/song/media/outer/url?id=262195.mp3";
@@ -246,7 +284,7 @@ var tv = {
                         tv.camera.x.target = this.point3D.x;
                         tv.camera.y.target = this.point3D.y;
                         tv.camera.zoom.target = tv.screen.w * 1.25;
-                        let randNum = Math.round(Math.random() * 143);
+                        let randNum = Math.round(Math.random() * 200);
                         audioDom.src = SONGLIST[randNum];
                         audioDom.play();
 
