@@ -1,4 +1,5 @@
 var Library = {};
+var isAuto = true;
 var SONGLIST = ['http://res.webftp.bbs.hnol.net/zhangyu/music/cd114/01.mp3',
     'http://res.webftp.bbs.hnol.net/zhangyu/music/cd114/10.mp3',
     'http://res.webftp.bbs.hnol.net/zhangyu/music/cd114/07.mp3',
@@ -375,8 +376,19 @@ var tv = {
         mouse.y = tv.screen.y + tv.screen.h;
         mouse.x = tv.screen.x + tv.screen.w;
         tv.run();
+        tv.autoonmousemove();
     },
+    autoonmousemove: function() {
+    	console.log("autoonmousemove-mouse-",mouse);
+         mouse.x = Math.round(Math.random() * 1600);
+         mouse.y = Math.round(Math.random() * 1600);
+         setTimeout(tv.autoonmousemove, 2000);
+         // if(isAuto){
+         //   setTimeout(tv.autoonmousemove, 2000);
+         // }else{
 
+         // }
+    },
     /* ==== resize window ==== */
     resize: function() {
         var o = tv.screen.obj;
@@ -387,6 +399,7 @@ var tv = {
             tv.screen.x += o.offsetLeft;
             tv.screen.y += o.offsetTop;
         }
+        
     },
 
     /* ==== main loop ==== */
@@ -409,6 +422,7 @@ var tv = {
         }
         /* ==== loop ==== */
         setTimeout(tv.run, 32);
+        
     }
 }
 
