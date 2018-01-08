@@ -287,8 +287,10 @@ var tv = {
                         tv.camera.zoom.target = tv.screen.w * 1.25;
                         let randNum = Math.round(Math.random() * 200);
                         audioDom.src = SONGLIST[randNum];
+                        var _content = document.getElementById('content');
+                        _content.style.background = 'url('+this.src+')'; //直接切换背景色。
+                        _content.style.backgroundSize = '100% auto'; //直接切换背景色。background-size: 100% auto;
                         audioDom.play();
-
                         tv.grid.zoomed = this;
                     } else {
                         if (this == tv.grid.zoomed) {
@@ -379,7 +381,6 @@ var tv = {
         tv.autoonmousemove();
     },
     autoonmousemove: function() {
-    	console.log("autoonmousemove-mouse-",mouse);
          mouse.x = Math.round(Math.random() * 1600);
          mouse.y = Math.round(Math.random() * 1600);
          setTimeout(tv.autoonmousemove, 2000);
